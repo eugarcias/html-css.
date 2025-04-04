@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Em html  é Id = em Css é #
+E, Html é Class = em CSS .  */
+/* O id é único, ou seja, só pode existir um id por página. Já a class pode existir várias vezes na mesma página. */
+
+body {
+    background-color: #313538;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    color: #9FC131
+}
+
+h1#principal {
+    background-color: rgb(255, 255, 255);
+    color: #9FC131;
+    text-align: center;
+}
+h1#secundario {
+    background-color: white;
+    text-align: center;
+    color: #9FC131;
+}
+h2 {
+    color:#9FC131;
+}
+.basico {
+    background-color: white;
+    color: black;
+}
+.intermediario {
+    background-color: white;
+    color: rgb(12, 223, 58);
+}
+.avancado {
+    background-color: white;
+    color: rgb(248, 1, 1);
+}
+p {
+    color:white;
+}
+
+
