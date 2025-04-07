@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        a {
+            color: brown;
+            text-decoration: none
+        }
+        a:visited {
+            color: blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a::after {
+            content: '[Link]';
+
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <ul>
+        <li><a href="https://github.com/eugarcias?tab=repositories" target="_blank">Repósitorio GitHub</a></li>
+
+        <li><a href="">Meu Instagram</a></li>
+
+        <li><a href="https://www.linkedin.com/in/maurício-garcia-3457b0223/">Meu LinkdInn</a></li>
+        
+    </ul>
+    
+</body>
+</html>
