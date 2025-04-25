@@ -135,12 +135,29 @@ p {
     margin: 10px;
    
 }
+div.video {
+    background-color: #063d1e;
+    margin-bottom: 30px;
+    margin: 0px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90% ;
+
+}
 
 
 section.secao2 {
     background-color: var(--cor2);
     border-radius: 10px;
-    padding: 0px;
+    padding: 5px;
   
 }
 
@@ -150,6 +167,11 @@ section.secao2 h4 {
     padding: 10px;
     margin: 0px;
     border-radius: 10px 10px 0px 0px;    
+}
+
+section.secao2 > ul {
+list-style-position: inside;
+columns: 2;
 }
 
 footer {
