@@ -1,0 +1,99 @@
+@charset "UTF-8"
+
+@font-face {
+    font-family: 'fonte-p';
+    src: url(fonte/moderna.TTF);
+}
+
+@font-face {
+    font-family: 'fonte-h1';
+    src: url(fonte/moderna.TTF);
+}
+
+* {
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'fonte-h1';
+    font-weight: 100;
+    padding-top: 30px;
+}
+
+header p {
+    font-family: 'fonte-p';
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+section {
+    font-family: 'fonte-p';
+    text-align: left;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 20px;
+}
+
+section p {
+    width: 200px;
+    padding-bottom: 10px;
+
+}
+
+section.img1 {
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center ;
+}
+
+section.img1 > p {
+    color: white;
+    background-color: #3b3f3c75;
+    padding: 10px;
+}
+
+section.img2 {
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.img2 > p {
+    background-color:  #3b3f3c75;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
